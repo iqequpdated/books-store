@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body style="background:#111;color:#fff">
+
+<h1>📖 Reader</h1>
+
+<script>
+const book = new URLSearchParams(location.search).get("book")
+document.body.innerHTML += "<p>Reading: " + book + "</p>"
+</script>
+
+</body>
+</html>
